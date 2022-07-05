@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// sumCmd represents the sum command
+// noteAddCmd represent the 'note add' command to add a note.
 var noteAddCmd = &cobra.Command{
 	Use:   "add",
 	Short: "Add a new notes.",
